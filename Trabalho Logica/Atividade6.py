@@ -1,13 +1,12 @@
-#Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são
-VERDADEIROS ou FALSOS.
+#Escreva um algoritmo que lê dois valores booleanos (lógicos) e então determina se ambos são VERDADEIROS ou FALSOS.
 
-a = bool(input('Digite True ou False: '))
-b = bool(input('Digite True ou False: '))
+t = bool(input('Digite True ou False: '))
+f = bool(input('Digite True ou False: '))
 
-a = a == 'True'
-b = b == 'True'
+t = t == 'True'
+f = f == 'True'
 
-if a and b:
+if t and f:
     print('Ambos os valores são verdadeiros')
 else:
     print('Ambos os valores não são verdadeiros')
